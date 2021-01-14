@@ -21,3 +21,5 @@ function check() {
 function reloadPage() {
   window.location.reload();
 }
+
+// Manipolare il DOM e togliere le console.log
