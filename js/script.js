@@ -22,4 +22,4 @@ function reloadPage() {
   window.location.reload();
 }
 
-// Manipolare il DOM e togliere le console.log
+// Stampare i risultati sul sito e togliere le console.log
