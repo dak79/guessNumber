@@ -1,4 +1,4 @@
-var randomNumber = Math.round(Math.random() * 50);
+let randomNumber = Math.round(Math.random() * 50);
 console.log(randomNumber);
 
 function check() {
