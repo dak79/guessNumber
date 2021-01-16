@@ -14,21 +14,17 @@
     <header>
       <h1>Guess a number</h1>
     </header>
-    <section>
-      <input type="text" id="numberInput">
-    </section>
-    <section>
+    <section id="input">
+      <label for="numberInput">Your number: </label>
+      <input type="text" id="numberInput" placeholder="e.g. 15">
       <button type="button" onclick="check();">Check it</button>
     </section>
-    <section>
-      <p>
-        The site is generating a random number between 0 and 50. Try to find it: you can follow hints changing the number and pressing check button.
+    <section id="output">
+      <p>The site is generating a random number between 0 and 50. Try to find it: you can follow hints changing the number and pressing check button.
       </p>
-    </section>
-    <section>
       <p>Feedback: <span id="resultHint"></span> </p>
+      <button type="button" onclick="reloadPage();">New Random Number</button>
     </section>
-    <button type="button" onclick="reloadPage();">New Random Number</button>
   </body>
 
 </html>
